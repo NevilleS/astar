@@ -1,0 +1,14 @@
+/************************************************************************
+*                      ECE457: A-STAR SEARCH                            *
+************************************************************************/
+
+===========================SUMMARY=======================================
+Implementation of the "A-Star" tree search algorithm, developed for a project submission for ECE457 at the University of Waterloo.
+
+===========================AUTHORS=======================================
+Neville Samuell (nevilles AT gmail.com)
+
+====================HOW TO COMPILE AND RUN===============================
+Use the included Makefile to compile the library and run the tests using the Google Test suite (which must be installed already).
+Since this was written for an assignment, there's already a handful of sample tests that are loaded and solved described as test
+suites.

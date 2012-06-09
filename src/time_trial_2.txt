@@ -1,0 +1,477 @@
+Running main() from gtest_main.cc
+[==========] Running 17 tests from 3 test cases.
+[----------] Global test environment set-up.
+[----------] 9 tests from SolverTest
+[ RUN      ] SolverTest.TwoPointsAStarTest
+Found path of length 112, 117 still open, closed 1238 nodes
+Found a solution, total length 112
+[       OK ] SolverTest.TwoPointsAStarTest (13 ms)
+[ RUN      ] SolverTest.TwoPointsBFSTest
+Found path of length 112, 33 still open, closed 5993 nodes
+Found a solution, total length 112
+[       OK ] SolverTest.TwoPointsBFSTest (15 ms)
+[ RUN      ] SolverTest.TwoPointsDFSTest
+Found path of length 274, 202 still open, closed 549 nodes
+Found a solution, total length 274
+[       OK ] SolverTest.TwoPointsDFSTest (11 ms)
+[ RUN      ] SolverTest.NPoints1AStarTest
+Found path of length 31, 31 still open, closed 72 nodes
+Found path of length 32, 59 still open, closed 145 nodes
+Found path of length 53, 80 still open, closed 150 nodes
+Found path of length 47, 85 still open, closed 442 nodes
+Found path of length 18, 63 still open, closed 248 nodes
+Found path of length 46, 83 still open, closed 528 nodes
+Found path of length 68, 74 still open, closed 468 nodes
+Found path of length 56, 121 still open, closed 869 nodes
+Found path of length 44, 84 still open, closed 184 nodes
+Found path of length 33, 65 still open, closed 304 nodes
+Found path of length 9, 28 still open, closed 36 nodes
+Found path of length 64, 97 still open, closed 822 nodes
+Found path of length 50, 62 still open, closed 327 nodes
+Found path of length 48, 78 still open, closed 578 nodes
+Found a solution, total length 599
+[       OK ] SolverTest.NPoints1AStarTest (19 ms)
+[ RUN      ] SolverTest.NPoints1MixedTest
+Found path of length 31, 31 still open, closed 72 nodes
+Found path of length 32, 82 still open, closed 1436 nodes
+Found path of length 53, 92 still open, closed 3287 nodes
+Found path of length 46, 94 still open, closed 2890 nodes
+Found path of length 13, 48 still open, closed 304 nodes
+Found path of length 22, 67 still open, closed 761 nodes
+Found path of length 59, 90 still open, closed 3016 nodes
+Found path of length 41, 79 still open, closed 2208 nodes
+Found path of length 42, 56 still open, closed 879 nodes
+Found path of length 33, 64 still open, closed 1110 nodes
+Found path of length 7, 17 still open, closed 56 nodes
+Found path of length 48, 71 still open, closed 1719 nodes
+Found path of length 34, 52 still open, closed 1076 nodes
+Found path of length 44, 26 still open, closed 994 nodes
+Found a solution, total length 505
+[       OK ] SolverTest.NPoints1MixedTest (26 ms)
+[ RUN      ] SolverTest.NPoints2AStarTest
+Found path of length 131, 184 still open, closed 2712 nodes
+Found path of length 8, 26 still open, closed 38 nodes
+Found path of length 44, 69 still open, closed 435 nodes
+Found path of length 19, 45 still open, closed 89 nodes
+Found path of length 23, 70 still open, closed 295 nodes
+Found path of length 57, 108 still open, closed 1147 nodes
+Found path of length 67, 164 still open, closed 866 nodes
+Found path of length 4, 8 still open, closed 5 nodes
+Found path of length 29, 46 still open, closed 164 nodes
+Found path of length 14, 47 still open, closed 112 nodes
+Found path of length 39, 88 still open, closed 454 nodes
+Found path of length 33, 38 still open, closed 279 nodes
+Found path of length 90, 93 still open, closed 839 nodes
+Found path of length -1, 0 still open, closed 0 nodes
+Found path of length 29, 80 still open, closed 398 nodes
+Found path of length 85, 106 still open, closed 1095 nodes
+Found path of length 93, 188 still open, closed 943 nodes
+Found path of length 30, 81 still open, closed 343 nodes
+Found path of length 34, 97 still open, closed 583 nodes
+Found path of length 26, 56 still open, closed 234 nodes
+Found path of length 29, 48 still open, closed 82 nodes
+Found path of length 20, 57 still open, closed 222 nodes
+Found path of length 55, 122 still open, closed 902 nodes
+Found path of length 19, 61 still open, closed 192 nodes
+Found path of length 142, 199 still open, closed 2390 nodes
+Found path of length 38, 113 still open, closed 1176 nodes
+Found path of length 109, 174 still open, closed 1287 nodes
+Found path of length 27, 53 still open, closed 316 nodes
+Found path of length 89, 157 still open, closed 639 nodes
+Found path of length 28, 48 still open, closed 89 nodes
+Found path of length 33, 100 still open, closed 498 nodes
+Found path of length 38, 119 still open, closed 772 nodes
+Found path of length 56, 105 still open, closed 1014 nodes
+Found path of length 34, 110 still open, closed 623 nodes
+Found path of length 31, 70 still open, closed 341 nodes
+Found path of length 16, 52 still open, closed 149 nodes
+Found path of length 107, 194 still open, closed 664 nodes
+Found path of length 47, 72 still open, closed 582 nodes
+Found path of length 20, 37 still open, closed 64 nodes
+Found path of length 65, 145 still open, closed 1440 nodes
+Found path of length 28, 52 still open, closed 93 nodes
+Found path of length 21, 51 still open, closed 237 nodes
+Found path of length 39, 90 still open, closed 657 nodes
+Found path of length 66, 202 still open, closed 1789 nodes
+Found path of length 15, 38 still open, closed 110 nodes
+Found path of length 24, 76 still open, closed 323 nodes
+Found path of length 21, 68 still open, closed 241 nodes
+Found path of length 22, 38 still open, closed 112 nodes
+Found path of length 35, 116 still open, closed 635 nodes
+Found path of length 30, 92 still open, closed 467 nodes
+Found path of length 58, 179 still open, closed 1395 nodes
+Found path of length 39, 128 still open, closed 809 nodes
+Found a solution, total length 2255
+[       OK ] SolverTest.NPoints2AStarTest (206 ms)
+[ RUN      ] SolverTest.NPoints2MixedTest
+Found path of length 131, 184 still open, closed 2712 nodes
+Found path of length 8, 31 still open, closed 128 nodes
+Found path of length 44, 49 still open, closed 1329 nodes
+Found path of length 14, 56 still open, closed 416 nodes
+Found path of length 23, 77 still open, closed 892 nodes
+Found path of length 57, 157 still open, closed 4618 nodes
+Found path of length 52, 179 still open, closed 4589 nodes
+Found path of length 4, 12 still open, closed 26 nodes
+Found path of length 29, 82 still open, closed 1164 nodes
+Found path of length 14, 42 still open, closed 319 nodes
+Found path of length 39, 136 still open, closed 2637 nodes
+Found path of length 33, 49 still open, closed 1125 nodes
+Found path of length 70, 119 still open, closed 4358 nodes
+Found path of length -1, 0 still open, closed 0 nodes
+Found path of length 26, 95 still open, closed 1093 nodes
+Found path of length 76, 174 still open, closed 6294 nodes
+Found path of length 31, 98 still open, closed 1693 nodes
+Found path of length 30, 116 still open, closed 1603 nodes
+Found path of length 34, 106 still open, closed 1925 nodes
+Found path of length 26, 88 still open, closed 1087 nodes
+Found path of length 11, 29 still open, closed 172 nodes
+Found path of length 13, 36 still open, closed 275 nodes
+Found path of length 48, 110 still open, closed 2535 nodes
+Found path of length 19, 61 still open, closed 624 nodes
+Found path of length 46, 67 still open, closed 2625 nodes
+Found path of length 37, 57 still open, closed 1501 nodes
+Found path of length 6, 20 still open, closed 73 nodes
+Found path of length 27, 57 still open, closed 833 nodes
+Found path of length 8, 32 still open, closed 121 nodes
+Found path of length 25, 65 still open, closed 905 nodes
+Found path of length 33, 79 still open, closed 1690 nodes
+Found path of length 44, 117 still open, closed 3411 nodes
+Found path of length 56, 118 still open, closed 3499 nodes
+Found path of length 33, 108 still open, closed 1584 nodes
+Found path of length 44, 120 still open, closed 3036 nodes
+Found path of length 26, 52 still open, closed 1053 nodes
+Found path of length 39, 73 still open, closed 1619 nodes
+Found path of length 47, 93 still open, closed 1966 nodes
+Found path of length 49, 111 still open, closed 3015 nodes
+Found path of length 65, 151 still open, closed 6201 nodes
+Found path of length 17, 61 still open, closed 470 nodes
+Found path of length 9, 35 still open, closed 147 nodes
+Found path of length 36, 52 still open, closed 1346 nodes
+Found path of length 41, 109 still open, closed 2728 nodes
+Found path of length 15, 49 still open, closed 430 nodes
+Found path of length 24, 93 still open, closed 1173 nodes
+Found path of length 21, 63 still open, closed 749 nodes
+Found path of length 22, 39 still open, closed 493 nodes
+Found path of length 35, 60 still open, closed 1254 nodes
+Found path of length 30, 61 still open, closed 1451 nodes
+Found path of length 22, 56 still open, closed 710 nodes
+Found path of length 39, 51 still open, closed 1236 nodes
+Found a solution, total length 1727
+[       OK ] SolverTest.NPoints2MixedTest (237 ms)
+[ RUN      ] SolverTest.NPoints3AStarTest
+Found path of length 55, 102 still open, closed 143 nodes
+Found path of length 31, 72 still open, closed 314 nodes
+Found path of length 35, 108 still open, closed 664 nodes
+Found path of length 68, 100 still open, closed 597 nodes
+Found path of length 60, 77 still open, closed 456 nodes
+Found path of length 36, 91 still open, closed 470 nodes
+Found path of length 18, 52 still open, closed 151 nodes
+Found path of length 58, 157 still open, closed 1341 nodes
+Found path of length 26, 82 still open, closed 376 nodes
+Found path of length 36, 117 still open, closed 679 nodes
+Found path of length 40, 65 still open, closed 83 nodes
+Found path of length 39, 75 still open, closed 431 nodes
+Found path of length 37, 112 still open, closed 663 nodes
+Found path of length 21, 66 still open, closed 252 nodes
+Found path of length 39, 95 still open, closed 669 nodes
+Found path of length 7, 9 still open, closed 7 nodes
+Found path of length 31, 97 still open, closed 526 nodes
+Found path of length 18, 57 still open, closed 173 nodes
+Found path of length 26, 67 still open, closed 266 nodes
+Found path of length 92, 156 still open, closed 1028 nodes
+Found path of length 18, 38 still open, closed 63 nodes
+Found path of length 18, 60 still open, closed 180 nodes
+Found path of length 46, 150 still open, closed 1108 nodes
+Found path of length 10, 33 still open, closed 65 nodes
+Found path of length 108, 226 still open, closed 2554 nodes
+Found path of length 10, 34 still open, closed 64 nodes
+Found path of length 73, 214 still open, closed 2659 nodes
+Found path of length 24, 49 still open, closed 226 nodes
+Found path of length 60, 54 still open, closed 741 nodes
+Found path of length 44, 143 still open, closed 1010 nodes
+Found path of length 46, 89 still open, closed 603 nodes
+Found path of length 33, 84 still open, closed 506 nodes
+Found path of length 80, 108 still open, closed 1530 nodes
+Found path of length 26, 90 still open, closed 365 nodes
+Found path of length 24, 75 still open, closed 302 nodes
+Found path of length 84, 129 still open, closed 1157 nodes
+Found path of length 92, 123 still open, closed 1453 nodes
+Found path of length 22, 59 still open, closed 243 nodes
+Found path of length 77, 168 still open, closed 1142 nodes
+Found path of length 68, 144 still open, closed 396 nodes
+Found path of length 16, 51 still open, closed 138 nodes
+Found path of length 32, 109 still open, closed 545 nodes
+Found path of length 178, 347 still open, closed 356 nodes
+Found path of length 11, 38 still open, closed 77 nodes
+Found path of length 109, 233 still open, closed 900 nodes
+Found path of length 51, 159 still open, closed 1332 nodes
+Found path of length 30, 82 still open, closed 433 nodes
+Found path of length 193, 330 still open, closed 1835 nodes
+Found path of length 25, 82 still open, closed 330 nodes
+Found path of length 62, 113 still open, closed 716 nodes
+Found path of length 208, 309 still open, closed 3592 nodes
+Found path of length 38, 96 still open, closed 451 nodes
+Found path of length 22, 75 still open, closed 265 nodes
+Found path of length 76, 177 still open, closed 2374 nodes
+Found path of length 57, 112 still open, closed 958 nodes
+Found path of length 84, 95 still open, closed 1241 nodes
+Found path of length 56, 52 still open, closed 350 nodes
+Found path of length 78, 144 still open, closed 868 nodes
+Found path of length 32, 92 still open, closed 541 nodes
+Found path of length 27, 91 still open, closed 391 nodes
+Found path of length 35, 71 still open, closed 463 nodes
+Found path of length 11, 38 still open, closed 74 nodes
+Found path of length 14, 47 still open, closed 119 nodes
+Found path of length 34, 93 still open, closed 465 nodes
+Found path of length 17, 53 still open, closed 164 nodes
+Found path of length 18, 62 still open, closed 177 nodes
+Found path of length 29, 64 still open, closed 438 nodes
+Found path of length 41, 128 still open, closed 902 nodes
+Found path of length 33, 108 still open, closed 570 nodes
+Found path of length 29, 87 still open, closed 424 nodes
+Found path of length 23, 72 still open, closed 278 nodes
+Found path of length 39, 71 still open, closed 409 nodes
+Found path of length 4, 14 still open, closed 11 nodes
+Found path of length 7, 16 still open, closed 29 nodes
+Found path of length 156, 136 still open, closed 3979 nodes
+Found path of length 104, 119 still open, closed 2534 nodes
+Found path of length 17, 55 still open, closed 168 nodes
+Found path of length 46, 146 still open, closed 1119 nodes
+Found path of length 22, 38 still open, closed 90 nodes
+Found path of length 250, 309 still open, closed 2876 nodes
+Found path of length 38, 69 still open, closed 618 nodes
+Found path of length 201, 231 still open, closed 4082 nodes
+Found path of length 10, 31 still open, closed 55 nodes
+Found path of length 33, 107 still open, closed 569 nodes
+Found path of length 50, 132 still open, closed 1266 nodes
+Found path of length 64, 86 still open, closed 764 nodes
+Found path of length 62, 195 still open, closed 1997 nodes
+Found path of length 46, 152 still open, closed 1109 nodes
+Found path of length 88, 104 still open, closed 1660 nodes
+Found path of length 31, 100 still open, closed 509 nodes
+Found path of length 75, 231 still open, closed 2921 nodes
+Found path of length 62, 196 still open, closed 2005 nodes
+Found path of length 6, 23 still open, closed 27 nodes
+Found path of length 45, 125 still open, closed 957 nodes
+Found path of length 9, 31 still open, closed 48 nodes
+Found path of length 23, 77 still open, closed 284 nodes
+Found path of length 26, 60 still open, closed 362 nodes
+Found path of length 28, 75 still open, closed 389 nodes
+Found path of length 56, 135 still open, closed 1324 nodes
+Found path of length 53, 82 still open, closed 626 nodes
+Found path of length 69, 165 still open, closed 1225 nodes
+Found path of length 66, 42 still open, closed 204 nodes
+Found path of length 71, 157 still open, closed 1807 nodes
+Found path of length 70, 61 still open, closed 963 nodes
+Found path of length 33, 104 still open, closed 591 nodes
+Found path of length 33, 89 still open, closed 515 nodes
+Found path of length 37, 118 still open, closed 735 nodes
+Found path of length 49, 145 still open, closed 1220 nodes
+Found path of length 13, 40 still open, closed 91 nodes
+Found path of length 27, 71 still open, closed 369 nodes
+Found path of length 117, 277 still open, closed 4227 nodes
+Found path of length 38, 62 still open, closed 216 nodes
+Found path of length 52, 98 still open, closed 507 nodes
+Found path of length 50, 97 still open, closed 477 nodes
+Found path of length 42, 108 still open, closed 778 nodes
+Found path of length 25, 79 still open, closed 328 nodes
+Found path of length 41, 103 still open, closed 762 nodes
+Found path of length 132, 122 still open, closed 3006 nodes
+Found path of length 30, 99 still open, closed 477 nodes
+Found path of length 70, 130 still open, closed 1190 nodes
+Found path of length 31, 91 still open, closed 506 nodes
+Found path of length 28, 78 still open, closed 349 nodes
+Found path of length 64, 202 still open, closed 2129 nodes
+Found path of length 37, 114 still open, closed 687 nodes
+Found path of length 28, 88 still open, closed 409 nodes
+Found path of length 14, 47 still open, closed 113 nodes
+Found path of length 17, 54 still open, closed 155 nodes
+Found path of length 22, 73 still open, closed 271 nodes
+Found path of length 34, 106 still open, closed 598 nodes
+Found path of length 56, 169 still open, closed 1514 nodes
+Found path of length 99, 169 still open, closed 2468 nodes
+Found path of length 25, 85 still open, closed 333 nodes
+Found path of length 12, 44 still open, closed 85 nodes
+Found path of length 39, 123 still open, closed 818 nodes
+Found path of length 42, 134 still open, closed 937 nodes
+Found path of length 15, 53 still open, closed 129 nodes
+Found path of length 35, 99 still open, closed 559 nodes
+Found path of length 66, 192 still open, closed 2063 nodes
+Found path of length 14, 46 still open, closed 117 nodes
+Found path of length 2, 7 still open, closed 3 nodes
+Found path of length 6, 21 still open, closed 24 nodes
+Found path of length 45, 145 still open, closed 1075 nodes
+Found a solution, total length 6852
+[       OK ] SolverTest.NPoints3AStarTest (3698 ms)
+[ RUN      ] SolverTest.NPoints3MixedTest
+Found path of length 55, 102 still open, closed 143 nodes
+Found path of length 31, 93 still open, closed 1338 nodes
+Found path of length 35, 139 still open, closed 2382 nodes
+Found path of length 68, 248 still open, closed 7792 nodes
+Found path of length 60, 149 still open, closed 5236 nodes
+Found path of length 36, 131 still open, closed 2474 nodes
+Found path of length 18, 74 still open, closed 659 nodes
+Found path of length 49, 135 still open, closed 4175 nodes
+Found path of length 33, 130 still open, closed 2124 nodes
+Found path of length 14, 57 still open, closed 367 nodes
+Found path of length 40, 151 still open, closed 2396 nodes
+Found path of length 39, 107 still open, closed 2233 nodes
+Found path of length 37, 120 still open, closed 2494 nodes
+Found path of length 23, 95 still open, closed 1105 nodes
+Found path of length 39, 128 still open, closed 2509 nodes
+Found path of length 7, 18 still open, closed 56 nodes
+Found path of length 19, 78 still open, closed 742 nodes
+Found path of length 21, 82 still open, closed 849 nodes
+Found path of length 15, 47 still open, closed 328 nodes
+Found path of length 52, 174 still open, closed 3974 nodes
+Found path of length 14, 57 still open, closed 368 nodes
+Found path of length 18, 70 still open, closed 640 nodes
+Found path of length 32, 89 still open, closed 1646 nodes
+Found path of length 12, 49 still open, closed 268 nodes
+Found path of length 72, 208 still open, closed 8402 nodes
+Found path of length 10, 43 still open, closed 221 nodes
+Found path of length 43, 127 still open, closed 2924 nodes
+Found path of length 19, 62 still open, closed 645 nodes
+Found path of length 41, 92 still open, closed 1295 nodes
+Found path of length 44, 134 still open, closed 3101 nodes
+Found path of length 46, 110 still open, closed 2766 nodes
+Found path of length 33, 112 still open, closed 2067 nodes
+Found path of length 36, 79 still open, closed 1471 nodes
+Found path of length 26, 84 still open, closed 1226 nodes
+Found path of length 24, 92 still open, closed 1147 nodes
+Found path of length 68, 157 still open, closed 5877 nodes
+Found path of length 83, 261 still open, closed 8493 nodes
+Found path of length 7, 29 still open, closed 95 nodes
+Found path of length 84, 255 still open, closed 8668 nodes
+Found path of length 68, 228 still open, closed 7200 nodes
+Found path of length 16, 67 still open, closed 545 nodes
+Found path of length 32, 119 still open, closed 1888 nodes
+Found path of length 98, 239 still open, closed 13668 nodes
+Found path of length 11, 45 still open, closed 241 nodes
+Found path of length 43, 156 still open, closed 3361 nodes
+Found path of length 51, 148 still open, closed 3520 nodes
+Found path of length 30, 113 still open, closed 1753 nodes
+Found path of length 102, 208 still open, closed 11768 nodes
+Found path of length 4, 17 still open, closed 33 nodes
+Found path of length 28, 80 still open, closed 1121 nodes
+Found path of length 91, 226 still open, closed 9339 nodes
+Found path of length 16, 67 still open, closed 545 nodes
+Found path of length 13, 54 still open, closed 352 nodes
+Found path of length 74, 106 still open, closed 5343 nodes
+Found path of length 57, 126 still open, closed 3533 nodes
+Found path of length 49, 80 still open, closed 3030 nodes
+Found path of length 44, 100 still open, closed 2383 nodes
+Found path of length 6, 23 still open, closed 62 nodes
+Found path of length 32, 119 still open, closed 1985 nodes
+Found path of length 27, 64 still open, closed 1007 nodes
+Found path of length 32, 84 still open, closed 1494 nodes
+Found path of length 8, 34 still open, closed 137 nodes
+Found path of length 3, 13 still open, closed 19 nodes
+Found path of length 41, 88 still open, closed 1835 nodes
+Found path of length 17, 69 still open, closed 609 nodes
+Found path of length 18, 65 still open, closed 621 nodes
+Found path of length 29, 39 still open, closed 609 nodes
+Found path of length 41, 130 still open, closed 3004 nodes
+Found path of length 33, 132 still open, closed 2152 nodes
+Found path of length 29, 73 still open, closed 1431 nodes
+Found path of length 8, 23 still open, closed 109 nodes
+Found path of length 26, 54 still open, closed 867 nodes
+Found path of length 4, 16 still open, closed 36 nodes
+Found path of length 7, 21 still open, closed 68 nodes
+Found path of length 143, 282 still open, closed 19235 nodes
+Found path of length 103, 147 still open, closed 8841 nodes
+Found path of length 17, 67 still open, closed 546 nodes
+Found path of length 37, 106 still open, closed 2460 nodes
+Found path of length 22, 76 still open, closed 747 nodes
+Found path of length 101, 123 still open, closed 7352 nodes
+Found path of length 38, 98 still open, closed 2032 nodes
+Found path of length 68, 138 still open, closed 5921 nodes
+Found path of length 3, 14 still open, closed 25 nodes
+Found path of length 33, 104 still open, closed 1852 nodes
+Found path of length 50, 110 still open, closed 3735 nodes
+Found path of length 36, 72 still open, closed 1531 nodes
+Found path of length 62, 144 still open, closed 4972 nodes
+Found path of length 46, 103 still open, closed 2565 nodes
+Found path of length 75, 210 still open, closed 7678 nodes
+Found path of length 13, 53 still open, closed 339 nodes
+Found path of length 19, 69 still open, closed 712 nodes
+Found path of length 37, 134 still open, closed 2626 nodes
+Found path of length 3, 14 still open, closed 22 nodes
+Found path of length 45, 90 still open, closed 2547 nodes
+Found path of length 9, 37 still open, closed 147 nodes
+Found path of length 10, 43 still open, closed 221 nodes
+Found path of length 6, 14 still open, closed 49 nodes
+Found path of length 28, 98 still open, closed 1478 nodes
+Found path of length 56, 153 still open, closed 5480 nodes
+Found path of length 53, 124 still open, closed 2601 nodes
+Found path of length 69, 154 still open, closed 5327 nodes
+Found path of length 66, 71 still open, closed 1949 nodes
+Found path of length 48, 157 still open, closed 4469 nodes
+Found path of length 70, 81 still open, closed 3178 nodes
+Found path of length 40, 154 still open, closed 2598 nodes
+Found path of length 21, 83 still open, closed 894 nodes
+Found path of length 10, 41 still open, closed 201 nodes
+Found path of length 24, 54 still open, closed 699 nodes
+Found path of length 13, 34 still open, closed 258 nodes
+Found path of length 27, 69 still open, closed 1217 nodes
+Found path of length 84, 127 still open, closed 7305 nodes
+Found path of length 25, 86 still open, closed 1005 nodes
+Found path of length 49, 172 still open, closed 3412 nodes
+Found path of length 36, 99 still open, closed 2055 nodes
+Found path of length 32, 60 still open, closed 1290 nodes
+Found path of length 25, 53 still open, closed 698 nodes
+Found path of length 44, 144 still open, closed 3464 nodes
+Found path of length 78, 129 still open, closed 7550 nodes
+Found path of length 30, 95 still open, closed 1650 nodes
+Found path of length 70, 134 still open, closed 5127 nodes
+Found path of length 31, 117 still open, closed 1959 nodes
+Found path of length 30, 108 still open, closed 1740 nodes
+Found path of length 54, 139 still open, closed 4299 nodes
+Found path of length 37, 96 still open, closed 2086 nodes
+Found path of length 27, 83 still open, closed 1317 nodes
+Found path of length 14, 57 still open, closed 393 nodes
+Found path of length 17, 56 still open, closed 514 nodes
+Found path of length 22, 70 still open, closed 779 nodes
+Found path of length 34, 83 still open, closed 1611 nodes
+Found path of length 41, 87 still open, closed 1879 nodes
+Found path of length 49, 105 still open, closed 3603 nodes
+Found path of length 15, 50 still open, closed 412 nodes
+Found path of length 12, 30 still open, closed 196 nodes
+Found path of length 39, 122 still open, closed 2772 nodes
+Found path of length 26, 93 still open, closed 1343 nodes
+Found path of length 15, 54 still open, closed 459 nodes
+Found path of length 32, 82 still open, closed 1757 nodes
+Found path of length 66, 84 still open, closed 4199 nodes
+Found path of length 14, 39 still open, closed 326 nodes
+Found path of length 2, 10 still open, closed 10 nodes
+Found path of length 6, 25 still open, closed 73 nodes
+Found path of length 45, 57 still open, closed 1541 nodes
+Found a solution, total length 5193
+[       OK ] SolverTest.NPoints3MixedTest (3847 ms)
+[----------] 9 tests from SolverTest (8072 ms total)
+
+[----------] 4 tests from MapTest
+[ RUN      ] MapTest.TwoPointTest
+[       OK ] MapTest.TwoPointTest (8 ms)
+[ RUN      ] MapTest.NPoint1Test
+[       OK ] MapTest.NPoint1Test (1 ms)
+[ RUN      ] MapTest.NPoint2Test
+[       OK ] MapTest.NPoint2Test (1 ms)
+[ RUN      ] MapTest.NPoint3Test
+[       OK ] MapTest.NPoint3Test (6 ms)
+[----------] 4 tests from MapTest (16 ms total)
+
+[----------] 4 tests from QueueTest
+[ RUN      ] QueueTest.InsertTest
+[       OK ] QueueTest.InsertTest (0 ms)
+[ RUN      ] QueueTest.QueueFIFOTest
+[       OK ] QueueTest.QueueFIFOTest (0 ms)
+[ RUN      ] QueueTest.PrioritySortTest
+[       OK ] QueueTest.PrioritySortTest (0 ms)
+[ RUN      ] QueueTest.StackTest
+[       OK ] QueueTest.StackTest (0 ms)
+[----------] 4 tests from QueueTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 17 tests from 3 test cases ran. (8088 ms total)
+[  PASSED  ] 17 tests.
